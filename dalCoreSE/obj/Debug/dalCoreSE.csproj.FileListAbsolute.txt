@@ -1,0 +1,5 @@
+C:\Documents and Settings\Pavel\Мои документы\Visual Studio 2008\Projects\dalCore\dalCoreSE\bin\Debug\dalCoreSE.dll
+C:\Documents and Settings\Pavel\Мои документы\Visual Studio 2008\Projects\dalCore\dalCoreSE\bin\Debug\dalCoreSE.pdb
+C:\Documents and Settings\Pavel\Мои документы\Visual Studio 2008\Projects\dalCore\dalCoreSE\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Pavel\Мои документы\Visual Studio 2008\Projects\dalCore\dalCoreSE\obj\Debug\dalCoreSE.dll
+C:\Documents and Settings\Pavel\Мои документы\Visual Studio 2008\Projects\dalCore\dalCoreSE\obj\Debug\dalCoreSE.pdb

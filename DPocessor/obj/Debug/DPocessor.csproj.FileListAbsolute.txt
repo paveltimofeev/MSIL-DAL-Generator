@@ -1,0 +1,6 @@
+C:\Documents and Settings\Pavel\Мои документы\Visual Studio 2008\Projects\dalCore\DPocessor\bin\Debug\Template.txt
+C:\Documents and Settings\Pavel\Мои документы\Visual Studio 2008\Projects\dalCore\DPocessor\bin\Debug\DPocessor.exe
+C:\Documents and Settings\Pavel\Мои документы\Visual Studio 2008\Projects\dalCore\DPocessor\bin\Debug\DPocessor.pdb
+C:\Documents and Settings\Pavel\Мои документы\Visual Studio 2008\Projects\dalCore\DPocessor\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Pavel\Мои документы\Visual Studio 2008\Projects\dalCore\DPocessor\obj\Debug\DPocessor.exe
+C:\Documents and Settings\Pavel\Мои документы\Visual Studio 2008\Projects\dalCore\DPocessor\obj\Debug\DPocessor.pdb

@@ -1,0 +1,90 @@
+﻿//classname                                                     <%CN%>  имя класса, берём из названия таблицы Book_ИмяКласса
+//fields array                                                  <%F%>   массив полей
+//fields-types array	 (@<Name>, SqlType.Type)				<%FT%>	массив полей и типов
+//fields-types array	 (<Name>, Type)							<%FTT%>	массив полей и типов
+//fiels stroke separated (<Name>,)                              <%FF%>  строка полей для select'а
+//fields stroke separated (<Name>,) without Id field            <%Ff%>  строка полей для insert'а
+//fields stroke separated (@<Name>,) without Id field           <%FP%>  строка полей для insert'а (параметры)
+//fields stroke separated (<Name> = @<Name>,) without Id field  <%FS%>  строка полей и параметров для update'а
+
+//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Data.SqlClient;
+//using System.Data;
+
+namespace dalCore
+{
+    public class <%CN%>: SQLBookBase
+    {
+        public int Id { get; set; }
+        public object <%F%> { get; set; }
+
+        public <%CN%>()
+        {
+            Initialize();
+        }
+        
+        public <%CN%>(int Id)
+        {
+            this.Id = Id;
+            Initialize();
+            this.Load(Id);
+        }
+        
+        protected override void Initialize()
+        {
+			cmdSelect = new SqlCommand("SELECT <%FF%> FROM Book_<%CN%> WHERE Id = @Id");
+            cmdSelectList = new SqlCommand("SELECT <%FF%> FROM Book_<%CN%>");
+            cmdDelete = new SqlCommand("DELETE FROM Book_<%CN%> WHERE Id = @Id");
+            cmdInsert = new SqlCommand("INSERT INTO Book_<%CN%>(<%Ff%>) VALUES(<%FP%>)");
+            cmdUpdate = new SqlCommand("UPDATE Book_<%CN%> SET <%FS%> WHERE Id = @Id");
+            
+            cmdInsert.Parameters.Add(<%FT%>);
+            cmdUpdate.Parameters.Add(<%FT%>);
+            
+            base.Initialize();
+        }
+
+        protected override void Preload()
+        {
+            base.Preload();
+        }
+
+        protected override void Presave()
+        {
+			cmdInsert.Parameters["@<%F%>"].Value = <%F%>;
+			cmdUpdate.Parameters["@<%F%>"].Value = <%F%>;
+        
+            base.Presave();
+        }
+        
+        protected override void Postload(DataTable data)
+        {
+            Id = Convert.ToInt32(data.Rows[0]["Id"].ToString());
+            <%F%> = Convert.ToInt<%FTT%>(data.Rows[0]["<%F%>"].ToString());
+
+            base.Postload(data);
+        }
+        public static <%CN%> Get(int Id)
+        {
+            <%CN%> temp = new <%CN%>(Id);
+            return temp;
+        }
+        
+        public static <%CN%>[] LoadList()
+        {
+            <%CN%> t = new <%CN%>();
+            DataTable tempTable = t.LoadDataList();
+            <%CN%>[] result = new <%CN%>[tempTable.Rows.Count];
+            for (int i = 0; i < result.Length; i++)
+            {
+                result[i] = new <%CN%>();
+                result[i].Postload(tempTable, i);
+            }
+
+            return result;
+        }
+    }
+}

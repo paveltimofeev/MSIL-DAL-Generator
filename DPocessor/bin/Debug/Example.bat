@@ -1,0 +1,1 @@
+DPocessor.exe "Integrated Security=True;Initial Catalog=MISCReportSingle;Data Source=DEVSYSTEM\SQLEXPRESS" d:\code.cs /f

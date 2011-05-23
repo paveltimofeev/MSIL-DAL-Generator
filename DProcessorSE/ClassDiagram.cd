@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DProcessorSE.EntityData">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>EntityData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DProcessorSE.EntityType">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAABAAAAAQAAQAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DProcessorSE.EntityTypes">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAABAACAgABAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityTypes.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

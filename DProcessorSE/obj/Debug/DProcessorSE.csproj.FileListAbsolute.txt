@@ -1,0 +1,13 @@
+C:\Documents and Settings\Pavel\Мои документы\Visual Studio 2008\Projects\dalCore\DProcessorSE\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Pavel\Мои документы\Visual Studio 2008\Projects\dalCore\DProcessorSE\obj\Debug\DProcessorSE.Form1.resources
+C:\Documents and Settings\Pavel\Мои документы\Visual Studio 2008\Projects\dalCore\DProcessorSE\obj\Debug\DProcessorSE.Properties.Resources.resources
+C:\Documents and Settings\Pavel\Мои документы\Visual Studio 2008\Projects\dalCore\DProcessorSE\obj\Debug\DProcessorSE.csproj.GenerateResource.Cache
+C:\Documents and Settings\Pavel\Мои документы\Visual Studio 2008\Projects\dalCore\DProcessorSE\bin\Debug\DProcessorSE.exe
+C:\Documents and Settings\Pavel\Мои документы\Visual Studio 2008\Projects\dalCore\DProcessorSE\bin\Debug\DProcessorSE.pdb
+C:\Documents and Settings\Pavel\Мои документы\Visual Studio 2008\Projects\dalCore\DProcessorSE\bin\Debug\dalCoreSE.dll
+C:\Documents and Settings\Pavel\Мои документы\Visual Studio 2008\Projects\dalCore\DProcessorSE\bin\Debug\dalCoreSE.pdb
+C:\Documents and Settings\Pavel\Мои документы\Visual Studio 2008\Projects\dalCore\DProcessorSE\obj\Debug\DProcessorSE.exe
+C:\Documents and Settings\Pavel\Мои документы\Visual Studio 2008\Projects\dalCore\DProcessorSE\obj\Debug\DProcessorSE.pdb
+C:\Documents and Settings\Pavel\Мои документы\Visual Studio 2008\Projects\dalCore\DProcessorSE\bin\Debug\doll.dll
+C:\Users\Pavel\Desktop\dalCore - копия\DProcessorSE\obj\Debug\DProcessorSE.exe
+C:\Users\Pavel\Desktop\dalCore - копия\DProcessorSE\obj\Debug\DProcessorSE.pdb

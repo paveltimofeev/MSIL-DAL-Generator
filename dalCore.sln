@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dalCoreSE", "dalCoreSE\dalCoreSE.csproj", "{8DA23E73-F9CD-48F3-9937-09140BCEC718}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DProcessorSE", "DProcessorSE\DProcessorSE.csproj", "{99B1F4DC-0AFA-4979-832E-4E6C8895BCBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{9B8E78C4-CAB0-43F6-A7A0-FB2059CDB46A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DA23E73-F9CD-48F3-9937-09140BCEC718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA23E73-F9CD-48F3-9937-09140BCEC718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA23E73-F9CD-48F3-9937-09140BCEC718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DA23E73-F9CD-48F3-9937-09140BCEC718}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99B1F4DC-0AFA-4979-832E-4E6C8895BCBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99B1F4DC-0AFA-4979-832E-4E6C8895BCBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99B1F4DC-0AFA-4979-832E-4E6C8895BCBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99B1F4DC-0AFA-4979-832E-4E6C8895BCBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B8E78C4-CAB0-43F6-A7A0-FB2059CDB46A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B8E78C4-CAB0-43F6-A7A0-FB2059CDB46A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B8E78C4-CAB0-43F6-A7A0-FB2059CDB46A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B8E78C4-CAB0-43F6-A7A0-FB2059CDB46A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
